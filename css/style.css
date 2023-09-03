@@ -366,7 +366,7 @@ a {
   (min-resolution: 2dppx) {
   .hero-image {
     background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../Foto/hero\ image.jpg);
+      url(../Foto/Dark-bg.png);
     background-size: cover;
   }
 }
