@@ -383,7 +383,8 @@ a {
 
 .hero-image {
   background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../Foto/people-office\ 1.png);
+    url(../Foto/mobile-hero-imgx2x.png);
+    background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -402,7 +403,7 @@ a {
   (min-resolution: 2dppx) {
   .hero-image {
     background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../Foto/people-office\ 1.png);
+      url(../Foto/mobile-hero-img2x.png);
     background-size: cover;
   }
 }
