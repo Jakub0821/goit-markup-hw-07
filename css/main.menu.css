@@ -72,14 +72,15 @@ select {
 [type="reset"],
 [type="submit"],
 button {
-  -webkit-appearance: button;
+  webkit-appearance: button;
 }
 ::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
 :-moz-focusring {
-  outline: 1px dotted ButtonText;
+  outline: 1px 
+  dotted ButtonText;
 }
 :-moz-ui-invalid {
   box-shadow: none;

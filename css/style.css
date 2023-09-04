@@ -383,7 +383,7 @@ a {
 
 .hero-image {
   background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../Foto/Dark-bg2.png);
+    url(../Foto/people-office\ 1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -402,7 +402,7 @@ a {
   (min-resolution: 2dppx) {
   .hero-image {
     background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../Foto/Dark-bg.png);
+      url(../Foto/people-office\ 1.png);
     background-size: cover;
   }
 }
@@ -809,13 +809,47 @@ a {
   align-items: center;
   fill: var(--color-contrast-bright);
 }
+.icon-wrapper-our-team {
+  display: flex;
+  gap: 24px;
+}
 
+.icon-our-team {
+  fill: var(--color-contrast-brighter);
+}
+
+.icon-our-team:hover,
+.icon-our-team:focus {
+  fill: var(--color-active);
+  transition: var(--transition-variable);
+}
+
+.our-team-list-element {
+ width: calc((100% - 72px)/4);
+ border-radius: 0 0 4px 4px;
+}
 .customers {
   display: flex;
   flex-wrap: wrap;
   row-gap: 72px;
   column-gap: 16px;
   justify-content: center;
+}
+.customers-list-element {
+  border-radius: 4px;
+  border: 1px solid var(--color-border-dark);
+  display: block;
+  width: 168px;
+  box-sizing: border-box;
+  height: 88px; 
+  position: relative;
+}
+
+.customers-list-element:hover,
+.customers-list-element:focus {
+  border-color: var(--color-active);
+  cursor: pointer;
+  transition: var(--transition-variable);
 }
 
 @media screen and (min-width: 768px) {
@@ -840,6 +874,9 @@ a {
 .customer-icon:focus {
   border-color: var(--link-active);
   fill: var(--link-active);
+  fill: var(--color-active);
+  cursor: pointer;
+  transition: var(--transition-variable);
 }
 
 .footer-wrapper {
@@ -885,11 +922,11 @@ a {
 }
 .social-icon {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  align-items: center;
-  justify-content: center;
   background-color: var(--primary-brand);
   transition: background-color var(--standard-animation);
 }
@@ -897,6 +934,8 @@ a {
 .social-icon:hover,
 .social-icon:focus {
   background-color: var(--link-active);
+  cursor: pointer;
+  transition: var(--transition-variable);
 }
 
 .social-icon-footer {
@@ -913,6 +952,9 @@ a {
 .social-icon-footer:hover,
 .social-icon-footer:focus {
   background-color: var(--success);
+}
+.social-footer-icon-element{
+  fill: var(--color-contrast-bright)
 }
 
 .modal {
