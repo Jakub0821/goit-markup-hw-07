@@ -101,7 +101,7 @@ ul {
       var(--dark-bg-color),
       var(--dark-bg-color)
     ),
-    url('../images/people-office.jpg');
+    url('../Foto/people-office@2x.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -114,7 +114,7 @@ ul {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .box {
-    background-image: url('../images/people-office.jpg');
+    background-image: url('../Foto/people-office@2x.png');
   }
 }
 .heading-title {
